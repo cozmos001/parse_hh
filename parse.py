@@ -166,5 +166,6 @@ with open(FILE_NAME, 'w') as f:
 # Выводим время выполнения всего кода
 print(f'Время выполнения {round(time.time() - curr_time, 1)}с.')
 
-pprint.pprint(parse_result)
+# Если надо до выводим результат
+# pprint.pprint(parse_result)
 
