@@ -24,9 +24,3 @@ def getAreas():
                               k['areas'][i]['name'],
                               k['areas'][i]['parent_id']])
     return areas
-
-
-# areas = getAreas()
-# for i in areas:
-#     if '1679' in i:
-#         print(i)
