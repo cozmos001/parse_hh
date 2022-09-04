@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Поиск</title>
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">Поиск</span>
+<!--                <span class="site-heading-lower">Business Casual</span>-->
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+                <div class="container">
+                    <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Главная</a></li>
+                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="form.html">Поиск</a></li>
+                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="contacts.html">Контакты</a></li>
+<!--                            <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Store</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+<!--<section class="page-section about-heading">-->
+        <section class="page-section cta">
+            <div class="container">
+<!--                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/about.jpg" alt="..." />-->
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="cta-inner bg-faded rounded p-5">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper text-center">Форма для отправки запроса</span>
+<!--                                    <span class="section-heading-lower">About Our Cafe</span>-->
+                                </h2>
+                                <p>
+                                    <form class="text-center">
+                                        Введите ключевые слова
+                                        <p><input class="form-control" type="text" name="keywords" value="" placeholder="строка поиска"></p>
+                                        Выберете где искать
+<!--                                    Альтернативный вариант центрирования формы с div-->
+                                        <div class="d-flex justify-content-center align-items-center container">
+<!--                                        Вариант с mx-auto но надо в файле css в form-custom регулировать параметр width(получается более ручной режим)-->
+                                            <p><select class="form-custom mx-auto" name="where">
+                                                <option value="all">Везде</option>
+                                                <option value="company">В названии компании</option>
+                                                <option value="name">В названии вакансии</option>
+                                                </select>
+                                            </p>
+                                        </div>
+                                            <input class="btn btn-primary" type="submit" value="Начать поиск">
+                                    </form>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
